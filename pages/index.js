@@ -1,6 +1,7 @@
 import Head from "next/head";
 import MyNavbar from "../components/main/MyNavbar";
 import { Instagram, Linkedin, GitHub } from "react-feather";
+import Image from "next/image";
 
 export default function Home() {
 	return (
@@ -17,9 +18,8 @@ export default function Home() {
 					<section className="container mx-auto py-20 lg:p-0">
 						<div className="flex flex-row-reverse flex-wrap min-h-screen items-center">
 							<div className="w-[100%] lg:w-[46%] flex justify-center lg:justify-end">
-								<Image
-									src="./img.jpg"
-									alt=""
+								<img
+									src="/img.jpg"
 									className="rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all w-8/12 "
 								/>
 							</div>
