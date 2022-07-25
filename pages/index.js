@@ -17,7 +17,7 @@ export default function Home() {
 					<section className="container mx-auto py-20 lg:p-0">
 						<div className="flex flex-row-reverse flex-wrap min-h-screen items-center">
 							<div className="w-[100%] lg:w-[46%] flex justify-center lg:justify-end">
-								<img
+								<Image
 									src="./img.jpg"
 									alt=""
 									className="rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all w-8/12 "
