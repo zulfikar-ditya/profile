@@ -27,7 +27,7 @@ export default function Home() {
 								<div className="">
 									<div className="text-edu-vic-wa-nt-beginner">
 										<h3 className="text-4xl tracking-widest font-light underline text-teal-500">
-											Hello I'am
+											Hello I am
 										</h3>
 										<h1 className="text-6xl mt-5 tracking-widest">
 											Zulfikar Ditya.
