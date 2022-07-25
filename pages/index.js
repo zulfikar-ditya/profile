@@ -6,7 +6,7 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Zulfikar Ditya's Profile</title>
+				<title>Zulfikar Ditya Profile</title>
 				<meta name="description" content="Zulfikar Ditya's Profile" />
 				<meta name="theme-color" content="#14b8a6" />
 				<link rel="icon" href="/favicon.ico" />
