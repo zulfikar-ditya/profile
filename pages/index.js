@@ -15,12 +15,12 @@ export default function Home() {
 			<div className="">
 				{/* <MyNavbar /> */}
 				<div className="">
-					<section className="container mx-auto p-20 lg:p-10">
+					<section className="container mx-auto p-10 md:p-20 lg:p-10">
 						<div className="flex flex-row-reverse flex-wrap min-h-screen items-center">
 							<div className="w-[100%] lg:w-[46%] flex justify-center">
 								<img
 									src="/img.jpg"
-									className="rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all w-6/12 "
+									className="rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all w-full md:w-6/12 lg:w-8/12	"
 								/>
 							</div>
 							<div className="w-[100%] lg:w-[46%] text-center mt-20 lg:mt-0">
