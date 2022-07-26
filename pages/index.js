@@ -17,7 +17,7 @@ export default function Home() {
 				<div className="">
 					<section className="container mx-auto p-20 lg:p-10">
 						<div className="flex flex-row-reverse flex-wrap min-h-screen items-center">
-							<div className="w-[100%] lg:w-[46%] flex justify-center lg:justify-end">
+							<div className="w-[100%] lg:w-[46%] flex justify-center">
 								<img
 									src="/img.jpg"
 									className="rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all w-6/12 "
