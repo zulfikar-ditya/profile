@@ -1,6 +1,6 @@
 import Head from "next/head";
 import MyNavbar from "../components/main/MyNavbar";
-import { Instagram, Linkedin, GitHub } from "react-feather";
+import { Instagram, Linkedin, GitHub, AlignCenter } from "react-feather";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,8 +15,8 @@ export default function Home() {
 			<div className="">
 				{/* <MyNavbar /> */}
 				<div className="">
-					<section className="container mx-auto p-10 md:p-20 lg:p-10">
-						<div className="flex flex-row-reverse flex-wrap min-h-screen items-center">
+					<section className="container mx-auto">
+						<div className="flex flex-row-reverse flex-wrap min-h-screen items-center p-10 md:p-20 lg:p-10">
 							<div className="w-[100%] lg:w-[46%] flex justify-center">
 								<img
 									src="/img.jpg"
@@ -77,6 +77,18 @@ export default function Home() {
 										>
 											<p className="text-white hover:text-teal-500 border-0 hover:border border-teal-500 bg-teal-500 hover:bg-white p-5 rounded-full transition-all transform hover:scale-105 shadow-md hover:shadow-md cursor-pointer">
 												<GitHub />
+											</p>
+										</a>
+									</div>
+									<div className="">
+										<a
+											href="https://drive.google.com/file/d/1AQEw4ru0zvj6-rejuQOiuKEYn8rhnH79/view?usp=sharing"
+											target="_blank"
+											rel="noopener noreferrer"
+											title="Resume"
+										>
+											<p className="text-white hover:text-teal-500 border-0 hover:border border-teal-500 bg-teal-500 hover:bg-white p-5 rounded-full transition-all transform hover:scale-105 shadow-md hover:shadow-md cursor-pointer">
+												<AlignCenter />
 											</p>
 										</a>
 									</div>
