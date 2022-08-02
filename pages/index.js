@@ -10,8 +10,8 @@ export default function Home() {
 				<title>Zulfikar Ditya - Web Development Enthusiast</title>
 				<meta name="description" content="Zulfikar Ditya" />
 				<meta name="title" content="Zulfikar Ditya" />
-				<meta name="keywords" content="Zulfikar Ditya, Web Developer, Web Design, Web Development, Programming, Laravel Developer, Backend Developer">
-  				<meta name="author" content="Zulfikar DItya">
+				<meta name="keywords" content="Zulfikar Ditya, Web Developer, Web Design, Web Development, Programming, Laravel Developer, Backend Developer" />
+  				<meta name="author" content="Zulfikar DItya" />
 				<meta name="theme-color" content="#14b8a6" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
