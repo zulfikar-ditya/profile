@@ -8,10 +8,10 @@ export default function Home() {
 		<div>
 			<Head>
 				<title>Zulfikar Ditya - Web Development Enthusiast</title>
-				<meta name="description" content="Zulfikar Ditya" />
+				<meta name="description" content="Zulfikar Ditya - Motivated in application development especially in backend development. graduated as the best graduate in major software engineering at Smkn 1 Jenangan in 2022. I was won several competitions in the field of web development. very enthusiastic in the field of web development and still want to keep learning." />
 				<meta name="title" content="Zulfikar Ditya" />
-				<meta name="keywords" content="Zulfikar Ditya, Web Developer, Web Design, Web Development, Programming, Laravel Developer, Backend Developer" />
-  				<meta name="author" content="Zulfikar DItya" />
+				<meta name="keywords" content="Zulfikar Ditya" />
+  				<meta name="author" content="Zulfikar Ditya" />
 				<meta name="theme-color" content="#14b8a6" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
