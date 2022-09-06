@@ -8,25 +8,28 @@ export default function Home() {
 		<div>
 			<Head>
 				<title>Zulfikar Ditya - Web Development Enthusiast</title>
-				<meta name="description" content="Zulfikar Ditya - Motivated in application development especially in backend development. graduated as the best graduate in major software engineering at Smkn 1 Jenangan in 2022. I was won several competitions in the field of web development. very enthusiastic in the field of web development and still want to keep learning." />
+				<meta
+					name="description"
+					content="Zulfikar Ditya - Motivated in application development especially in backend development. graduated as the best graduate in major software engineering at Smkn 1 Jenangan in 2022. I was won several competitions in the field of web development. very enthusiastic in the field of web development and still want to keep learning."
+				/>
 				<meta name="title" content="Zulfikar Ditya" />
 				<meta name="keywords" content="Zulfikar Ditya" />
-  				<meta name="author" content="Zulfikar Ditya" />
+				<meta name="author" content="Zulfikar Ditya" />
 				<meta name="theme-color" content="#14b8a6" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/octocat-1662013943820.png" />
 			</Head>
 			<div className="">
 				{/* <MyNavbar /> */}
 				<div className="">
 					<section className="container mx-auto">
-						<div className="flex flex-row-reverse flex-wrap min-h-screen items-center p-10 md:p-20 lg:p-10">
-							<div className="w-[100%] lg:w-[46%] flex justify-center">
+						<div className="flex flex-row-reverse flex-wrap min-h-screen items-center justify-center lg:justify-between p-10 md:p-20 lg:p-10">
+							<div className="w-[100%] lg:w-[46%] flex justify-center lg:justify-end">
 								<img
 									src="/img.jpg"
 									className="rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all w-full md:w-6/12 lg:w-8/12	"
 								/>
 							</div>
-							<div className="w-[100%] lg:w-[46%] text-center mt-20 lg:mt-0">
+							<div className="w-[100%] lg:w-[46%] mt-20 lg:mt-0">
 								<div className="">
 									<div className="text-edu-vic-wa-nt-beginner">
 										<h3 className="text-4xl tracking-widest font-light underline text-teal-500">
@@ -36,11 +39,11 @@ export default function Home() {
 											Zulfikar Ditya.
 										</h1>
 									</div>
-									<hr className="border border-teal-500 mt-10" />
+									<hr className="border border-teal-500" />
 									<h5 className="text-2xl mt-10 tracking-widest">
 										Web development enthusiast.
 									</h5>
-									<p className="mt-5 text-gray-500">
+									<p className="mt-2 text-gray-500">
 										Motivated in application development especially in backend
 										development. graduated as the best graduate in major
 										software engineering at Smkn 1 Jenangan in 2022. I was won
@@ -49,7 +52,7 @@ export default function Home() {
 										to keep learning.
 									</p>
 								</div>
-								<div className="flex justify-between md:justify-center flex-wrap gap-5 mt-10">
+								<div className="flex flex-wrap gap-5 mt-5">
 									<div className="">
 										<a
 											href="https://www.instagram.com/zulfikar.ditya/"
