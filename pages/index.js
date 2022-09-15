@@ -24,7 +24,7 @@ export default function Home() {
 					<section className="container mx-auto">
 						<div className="flex flex-row-reverse flex-wrap min-h-screen items-center justify-center lg:justify-between p-10 md:p-20 lg:p-10">
 							<div className="w-[100%] lg:w-[46%] flex justify-center lg:justify-end">
-								<Image
+								<img
 									alt="Zulfikar Ditya"
 									src="/img.jpg"
 									className="rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all w-full md:w-6/12 lg:w-8/12	"
