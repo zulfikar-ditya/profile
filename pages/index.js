@@ -1,6 +1,12 @@
 import Head from "next/head";
 import MyNavbar from "../components/main/MyNavbar";
-import { Instagram, Linkedin, GitHub, AlignCenter } from "react-feather";
+import {
+	Instagram,
+	Linkedin,
+	GitHub,
+	AlignCenter,
+	ArrowRight,
+} from "react-feather";
 import Image from "next/image";
 
 export default function Home() {
@@ -97,6 +103,71 @@ export default function Home() {
 											<p className="text-white hover:text-teal-500 border-0 hover:border border-teal-500 bg-teal-500 hover:bg-white p-5 rounded-full transition-all transform hover:scale-105 shadow-md hover:shadow-md cursor-pointer">
 												<AlignCenter />
 											</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div className="bg-slate-100 min-h-screen">
+					<section className="container mx-auto py-20">
+						<div className="flex justify-center">
+							<div className="w-6/12 text-center">
+								<h1 className="text-6xl">Skills</h1>
+								<hr className="border border-teal-500 my-5" />
+								<span className="text-slate-500">
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									Iusto tempore ab sequi culpa ad incidunt.
+								</span>
+							</div>
+						</div>
+						<div className="grid grid-cols-4 mt-20 gap-7">
+							<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+								<img
+									src="https://www.vectorlogo.zone/logos/laravel/laravel-icon.svg"
+									className="w-20 bg-red-100 rounded-xl p-3"
+									alt="skill-logo"
+								/>
+
+								<div className="mt-3">
+									<h5 className="text-2xl mb-3">Laravel</h5>
+									<hr className="border border-red-500" />
+									<p className="text-slate-500 mt-5">
+										Developing web application using Laravel framework. Can work
+										as teams or individual.
+									</p>
+
+									<div className="mt-3">
+										<a
+											href="#"
+											className="block text-center bg-white hover:bg-red-500 border border-red-500 hover:border-whiti px-5 py-3 rounded text-red-500 hover:text-white w-full transition-all"
+										>
+											Learn more.
+										</a>
+									</div>
+								</div>
+							</div>
+							<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+								<img
+									src="https://www.vectorlogo.zone/logos/laravel/laravel-icon.svg"
+									className="w-20 bg-red-100 rounded-xl p-3"
+									alt="skill-logo"
+								/>
+
+								<div className="mt-3">
+									<h5 className="text-2xl mb-3">Tailwind Css</h5>
+									<hr className="border border-red-500" />
+									<p className="text-slate-500 mt-5">
+										Developing web page using tailwind css for styling
+									</p>
+
+									<div className="mt-3">
+										<a
+											href="#"
+											className="block text-center bg-white hover:bg-red-500 border border-red-500 hover:border-whiti px-5 py-3 rounded text-red-500 hover:text-white w-full transition-all"
+										>
+											Learn more.
 										</a>
 									</div>
 								</div>
