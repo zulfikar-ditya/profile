@@ -8,8 +8,50 @@ import {
 	ArrowRight,
 } from "react-feather";
 import Image from "next/image";
+import Skills from "../components/main/skills";
 
 export default function Home() {
+	let SKILLS = [
+		{
+			name: "Laravel",
+			text: "Developing or create web application using Laravel framework.",
+			img_url: "https://www.vectorlogo.zone/logos/laravel/laravel-icon.svg",
+			color: "red",
+		},
+		{
+			name: "Tailwind css",
+			text: "Developing or create web pages using Tailwindcss for styling.",
+			img_url:
+				"https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+			color: "teal",
+		},
+		{
+			name: "Boostrap",
+			text: "Developing or create web pages using Boostrap for styling.",
+			img_url:
+				"https://upload.vectorlogo.zone/logos/getbootstrap/images/987f8f6c-263a-47b1-a85d-853cfca215d9.svg",
+			color: "blue",
+		},
+		{
+			name: "JQuery",
+			text: "Developing web pages using Jquery for functionality and others.",
+			img_url: "https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg",
+			color: "blue",
+		},
+		{
+			name: "Next Js",
+			text: "Developing or create web pages using Next Js.",
+			img_url:
+				"https://upload.vectorlogo.zone/logos/nextjs/images/60eff509-53dd-4280-92e7-7318fa02e934.svg",
+			color: "gray",
+		},
+		{
+			name: "React Js",
+			text: "Developing or create web pages using React Js.",
+			img_url: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+			color: "green",
+		},
+	];
 	return (
 		<div>
 			<Head>
@@ -111,7 +153,7 @@ export default function Home() {
 					</section>
 				</div>
 				<div className="bg-slate-100 min-h-screen">
-					<section className="container mx-auto py-20">
+					<section className="container mx-auto sm:px-10 p-0 py-20">
 						<div className="flex justify-center">
 							<div className="w-6/12 text-center">
 								<h1 className="text-6xl">Skills</h1>
@@ -122,56 +164,200 @@ export default function Home() {
 								</span>
 							</div>
 						</div>
-						<div className="grid grid-cols-4 mt-20 gap-7">
-							<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
-								<img
-									src="https://www.vectorlogo.zone/logos/laravel/laravel-icon.svg"
-									className="w-20 bg-red-100 rounded-xl p-3"
-									alt="skill-logo"
-								/>
-
-								<div className="mt-3">
-									<h5 className="text-2xl mb-3">Laravel</h5>
-									<hr className="border border-red-500" />
-									<p className="text-slate-500 mt-5">
-										Developing web application using Laravel framework. Can work
-										as teams or individual.
-									</p>
+						<div className="grid md:grid-cols-2 lg:grid-cols-4 mt-20 gap-7">
+							<div>
+								<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+									<img
+										src={`https://www.vectorlogo.zone/logos/laravel/laravel-icon.svg`}
+										className={`w-20 bg-red-100 rounded-xl p-3`}
+										alt="skill-logo"
+									/>
 
 									<div className="mt-3">
-										<a
-											href="#"
-											className="block text-center bg-white hover:bg-red-500 border border-red-500 hover:border-whiti px-5 py-3 rounded text-red-500 hover:text-white w-full transition-all"
-										>
-											Learn more.
-										</a>
+										<h5 className="text-2xl mb-3">Laravel</h5>
+										<hr className={`border border-red-500`} />
+										<p className="text-slate-500 mt-5">
+											Developing or create web application using Laravel
+											framework.
+										</p>
+
+										<div className="mt-3">
+											<a
+												href="#"
+												className={`block text-center bg-white hover:bg-red-500 border border-red-500 hover:border-whiti px-5 py-3 rounded text-red-500 hover:text-white w-full transition-all`}
+											>
+												Learn more.
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
-								<img
-									src="https://www.vectorlogo.zone/logos/laravel/laravel-icon.svg"
-									className="w-20 bg-red-100 rounded-xl p-3"
-									alt="skill-logo"
-								/>
 
-								<div className="mt-3">
-									<h5 className="text-2xl mb-3">Tailwind Css</h5>
-									<hr className="border border-red-500" />
-									<p className="text-slate-500 mt-5">
-										Developing web page using tailwind css for styling
-									</p>
+							<div>
+								<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+									<img
+										src={`https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg`}
+										className={`w-20 bg-teal-100 rounded-xl p-3`}
+										alt="skill-logo"
+									/>
 
 									<div className="mt-3">
-										<a
-											href="#"
-											className="block text-center bg-white hover:bg-red-500 border border-red-500 hover:border-whiti px-5 py-3 rounded text-red-500 hover:text-white w-full transition-all"
-										>
-											Learn more.
-										</a>
+										<h5 className="text-2xl mb-3">Tailwindcss</h5>
+										<hr className={`border border-teal-500`} />
+										<p className="text-slate-500 mt-5">
+											Developing or create web pages using Tailwindcss for
+											styling.
+										</p>
+
+										<div className="mt-3">
+											<a
+												href="#"
+												className={`block text-center bg-white hover:bg-teal-500 border border-teal-500 hover:border-whiti px-5 py-3 rounded text-teal-500 hover:text-white w-full transition-all`}
+											>
+												Learn more.
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
+
+							<div>
+								<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+									<img
+										src={`https://upload.vectorlogo.zone/logos/getbootstrap/images/987f8f6c-263a-47b1-a85d-853cfca215d9.svg`}
+										className={`w-20 bg-violet-100 rounded-xl p-3`}
+										alt="skill-logo"
+									/>
+
+									<div className="mt-3">
+										<h5 className="text-2xl mb-3">Boostrap</h5>
+										<hr className={`border border-violet-500`} />
+										<p className="text-slate-500 mt-5">
+											Developing or create web pages using Boostrap for styling.
+										</p>
+
+										<div className="mt-3">
+											<a
+												href="#"
+												className={`block text-center bg-white hover:bg-violet-500 border border-violet-500 hover:border-whiti px-5 py-3 rounded text-violet-500 hover:text-white w-full transition-all`}
+											>
+												Learn more.
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+									<img
+										src={`https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg`}
+										className={`w-20 bg-blue-100 rounded-xl p-3`}
+										alt="skill-logo"
+									/>
+
+									<div className="mt-3">
+										<h5 className="text-2xl mb-3">Jquery</h5>
+										<hr className={`border border-blue-500`} />
+										<p className="text-slate-500 mt-5">
+											Developing web pages using Jquery for functionality and
+											others.
+										</p>
+
+										<div className="mt-3">
+											<a
+												href="#"
+												className={`block text-center bg-white hover:bg-blue-500 border border-blue-500 hover:border-whiti px-5 py-3 rounded text-blue-500 hover:text-white w-full transition-all`}
+											>
+												Learn more.
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+									<img
+										src={`https://upload.vectorlogo.zone/logos/nextjs/images/60eff509-53dd-4280-92e7-7318fa02e934.svg`}
+										className={`w-20 bg-gray-100 rounded-xl p-3`}
+										alt="skill-logo"
+									/>
+
+									<div className="mt-3">
+										<h5 className="text-2xl mb-3">Next Js</h5>
+										<hr className={`border border-gray-500`} />
+										<p className="text-slate-500 mt-5">
+											Developing or create web pages using Next Js.
+										</p>
+
+										<div className="mt-3">
+											<a
+												href="#"
+												className={`block text-center bg-white hover:bg-gray-500 border border-gray-500 hover:border-whiti px-5 py-3 rounded text-gray-500 hover:text-white w-full transition-all`}
+											>
+												Learn more.
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+									<img
+										src={`https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg`}
+										className={`w-20 bg-sky-100 rounded-xl p-3`}
+										alt="skill-logo"
+									/>
+
+									<div className="mt-3">
+										<h5 className="text-2xl mb-3">React Js</h5>
+										<hr className={`border border-sky-500`} />
+										<p className="text-slate-500 mt-5">
+											Developing or create web pages using React Js.
+										</p>
+
+										<div className="mt-3">
+											<a
+												href="#"
+												className={`block text-center bg-white hover:bg-sky-500 border border-sky-500 hover:border-whiti px-5 py-3 rounded text-sky-500 hover:text-white w-full transition-all`}
+											>
+												Learn more.
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							{/* {SKILLS.map(({ name, img_url, text, color }, index) => {
+								return (
+									<div key={index}>
+										<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+											<img
+												src={img_url}
+												className={`w-20 bg-${color}-100 rounded-xl p-3`}
+												alt="skill-logo"
+											/>
+
+											<div className="mt-3">
+												<h5 className="text-2xl mb-3">{name}</h5>
+												<hr className={`border border-${color}-500`} />
+												<p className="text-slate-500 mt-5">{text}</p>
+
+												<div className="mt-3">
+													<a
+														href="#"
+														className={`block text-center bg-white hover:bg-${color}-500 border border-${color}-500 hover:border-whiti px-5 py-3 rounded text-${color}-500 hover:text-white w-full transition-all`}
+													>
+														Learn more.
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								);
+							})} */}
 						</div>
 					</section>
 				</div>
