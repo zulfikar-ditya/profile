@@ -186,6 +186,7 @@ export default function Home() {
 												href="https://laravel.com/"
 												className={`block text-center bg-white hover:bg-red-500 border border-red-500 hover:border-whiti px-5 py-3 rounded text-red-500 hover:text-white w-full transition-all`}
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												Learn more.
 											</a>
@@ -215,6 +216,7 @@ export default function Home() {
 												href="https://tailwindcss.com/"
 												className={`block text-center bg-white hover:bg-teal-500 border border-teal-500 hover:border-whiti px-5 py-3 rounded text-teal-500 hover:text-white w-full transition-all`}
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												Learn more.
 											</a>
@@ -243,6 +245,7 @@ export default function Home() {
 												href="https://getbootstrap.com/"
 												className={`block text-center bg-white hover:bg-violet-500 border border-violet-500 hover:border-whiti px-5 py-3 rounded text-violet-500 hover:text-white w-full transition-all`}
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												Learn more.
 											</a>
@@ -272,6 +275,7 @@ export default function Home() {
 												href="https://jquery.com/"
 												className={`block text-center bg-white hover:bg-blue-500 border border-blue-500 hover:border-whiti px-5 py-3 rounded text-blue-500 hover:text-white w-full transition-all`}
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												Learn more.
 											</a>
@@ -300,6 +304,7 @@ export default function Home() {
 												href="https://nextjs.org/"
 												className={`block text-center bg-white hover:bg-gray-500 border border-gray-500 hover:border-whiti px-5 py-3 rounded text-gray-500 hover:text-white w-full transition-all`}
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												Learn more.
 											</a>
@@ -328,6 +333,7 @@ export default function Home() {
 												href="https://reactjs.org/"
 												className={`block text-center bg-white hover:bg-sky-500 border border-sky-500 hover:border-whiti px-5 py-3 rounded text-sky-500 hover:text-white w-full transition-all`}
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												Learn more.
 											</a>
@@ -356,6 +362,7 @@ export default function Home() {
 												href="https://www.mysql.com/"
 												className={`block text-center bg-white hover:bg-sky-500 border border-sky-500 hover:border-whiti px-5 py-3 rounded text-sky-500 hover:text-white w-full transition-all`}
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												Learn more.
 											</a>
@@ -384,6 +391,7 @@ export default function Home() {
 												href="https://www.javascript.com/"
 												className={`block text-center bg-white hover:bg-amber-500 border border-amber-500 hover:border-whiti px-5 py-3 rounded text-amber-500 hover:text-white w-full transition-all`}
 												target="_blank"
+												rel="noopener noreferrer"
 											>
 												Learn more.
 											</a>
