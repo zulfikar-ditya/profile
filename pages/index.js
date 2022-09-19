@@ -183,8 +183,9 @@ export default function Home() {
 
 										<div className="mt-3">
 											<a
-												href="#"
+												href="https://laravel.com/"
 												className={`block text-center bg-white hover:bg-red-500 border border-red-500 hover:border-whiti px-5 py-3 rounded text-red-500 hover:text-white w-full transition-all`}
+												target="_blank"
 											>
 												Learn more.
 											</a>
@@ -211,8 +212,9 @@ export default function Home() {
 
 										<div className="mt-3">
 											<a
-												href="#"
+												href="https://tailwindcss.com/"
 												className={`block text-center bg-white hover:bg-teal-500 border border-teal-500 hover:border-whiti px-5 py-3 rounded text-teal-500 hover:text-white w-full transition-all`}
+												target="_blank"
 											>
 												Learn more.
 											</a>
@@ -238,8 +240,9 @@ export default function Home() {
 
 										<div className="mt-3">
 											<a
-												href="#"
+												href="https://getbootstrap.com/"
 												className={`block text-center bg-white hover:bg-violet-500 border border-violet-500 hover:border-whiti px-5 py-3 rounded text-violet-500 hover:text-white w-full transition-all`}
+												target="_blank"
 											>
 												Learn more.
 											</a>
@@ -257,7 +260,7 @@ export default function Home() {
 									/>
 
 									<div className="mt-3">
-										<h5 className="text-2xl mb-3">Jquery</h5>
+										<h5 className="text-2xl mb-3">JQuery</h5>
 										<hr className={`border border-blue-500`} />
 										<p className="text-slate-500 mt-5">
 											Developing web pages using Jquery for functionality and
@@ -266,8 +269,9 @@ export default function Home() {
 
 										<div className="mt-3">
 											<a
-												href="#"
+												href="https://jquery.com/"
 												className={`block text-center bg-white hover:bg-blue-500 border border-blue-500 hover:border-whiti px-5 py-3 rounded text-blue-500 hover:text-white w-full transition-all`}
+												target="_blank"
 											>
 												Learn more.
 											</a>
@@ -293,8 +297,9 @@ export default function Home() {
 
 										<div className="mt-3">
 											<a
-												href="#"
+												href="https://nextjs.org/"
 												className={`block text-center bg-white hover:bg-gray-500 border border-gray-500 hover:border-whiti px-5 py-3 rounded text-gray-500 hover:text-white w-full transition-all`}
+												target="_blank"
 											>
 												Learn more.
 											</a>
@@ -320,8 +325,9 @@ export default function Home() {
 
 										<div className="mt-3">
 											<a
-												href="#"
+												href="https://reactjs.org/"
 												className={`block text-center bg-white hover:bg-sky-500 border border-sky-500 hover:border-whiti px-5 py-3 rounded text-sky-500 hover:text-white w-full transition-all`}
+												target="_blank"
 											>
 												Learn more.
 											</a>
@@ -330,36 +336,113 @@ export default function Home() {
 								</div>
 							</div>
 
-							{/* {SKILLS.map(({ name, img_url, text, color }, index) => {
-								return (
-									<div key={index}>
-										<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
-											<img
-												src={img_url}
-												className={`w-20 bg-${color}-100 rounded-xl p-3`}
-												alt="skill-logo"
-											/>
+							<div>
+								<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+									<img
+										src={`https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg`}
+										className={`w-20 bg-sky-100 rounded-xl p-3`}
+										alt="skill-logo"
+									/>
 
-											<div className="mt-3">
-												<h5 className="text-2xl mb-3">{name}</h5>
-												<hr className={`border border-${color}-500`} />
-												<p className="text-slate-500 mt-5">{text}</p>
+									<div className="mt-3">
+										<h5 className="text-2xl mb-3">MySql</h5>
+										<hr className={`border border-sky-500`} />
+										<p className="text-slate-500 mt-5">
+											Manage Web app using mysql database management system.
+										</p>
 
-												<div className="mt-3">
-													<a
-														href="#"
-														className={`block text-center bg-white hover:bg-${color}-500 border border-${color}-500 hover:border-whiti px-5 py-3 rounded text-${color}-500 hover:text-white w-full transition-all`}
-													>
-														Learn more.
-													</a>
-												</div>
-											</div>
+										<div className="mt-3">
+											<a
+												href="https://www.mysql.com/"
+												className={`block text-center bg-white hover:bg-sky-500 border border-sky-500 hover:border-whiti px-5 py-3 rounded text-sky-500 hover:text-white w-full transition-all`}
+												target="_blank"
+											>
+												Learn more.
+											</a>
 										</div>
 									</div>
-								);
-							})} */}
+								</div>
+							</div>
+
+							<div>
+								<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+									<img
+										src={`https://upload.vectorlogo.zone/logos/javascript/images/239ec8a4-163e-4792-83b6-3f6d96911757.svg`}
+										className={`w-20 bg-amber-100 rounded-xl p-3`}
+										alt="skill-logo"
+									/>
+
+									<div className="mt-3">
+										<h5 className="text-2xl mb-3">Javascript</h5>
+										<hr className={`border border-amber-500`} />
+										<p className="text-slate-500 mt-5">
+											Create web pages using javascript, manipulate DOM, etc.
+										</p>
+
+										<div className="mt-3">
+											<a
+												href="https://www.javascript.com/"
+												className={`block text-center bg-white hover:bg-amber-500 border border-amber-500 hover:border-whiti px-5 py-3 rounded text-amber-500 hover:text-white w-full transition-all`}
+												target="_blank"
+											>
+												Learn more.
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</section>
+				</div>
+				<div className="">
+					<section className="container mx-auto py-20 sm:px-10 p-10">
+						<div className="flex justify-center">
+							<div className="w-6/12 text-center">
+								<h1 className="text-6xl">Award</h1>
+								<hr className="border border-teal-500 my-5" />
+								<span className="text-slate-500">
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									Iusto tempore ab sequi culpa ad incidunt.
+								</span>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div className="bg-slate-100">
+					<section className="container mx-auto py-20 sm:px-10 p-10">
+						<div className="flex justify-center">
+							<div className="w-6/12 text-center">
+								<h1 className="text-6xl">Work Experience</h1>
+								<hr className="border border-teal-500 my-5" />
+								<span className="text-slate-500">
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									Iusto tempore ab sequi culpa ad incidunt.
+								</span>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div className="">
+					<section className="container mx-auto py-20 sm:px-10 p-10">
+						<div className="flex justify-center">
+							<div className="w-6/12 text-center">
+								<h1 className="text-6xl">Educational Background</h1>
+								<hr className="border border-teal-500 my-5" />
+								<span className="text-slate-500">
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									Iusto tempore ab sequi culpa ad incidunt.
+								</span>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div className="bg-slate-900 py-10 text-white">
+					<div className="container mx-auto">
+						<div className="text-center">
+							&copy; {new Date().getFullYear()} - Zulfikar Ditya, Alrigts
+							Reserved.
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
