@@ -137,7 +137,7 @@ export default function Home() {
 									</div>
 									<div className="">
 										<a
-											href="https://drive.google.com/file/d/1AQEw4ru0zvj6-rejuQOiuKEYn8rhnH79/view?usp=sharing"
+											href="https://drive.google.com/file/d/1iI_PAU-7tGUwVZ3ViXyWGeMpONHWc2Hv/view?usp=sharing"
 											target="_blank"
 											rel="noopener noreferrer"
 											title="Resume"
