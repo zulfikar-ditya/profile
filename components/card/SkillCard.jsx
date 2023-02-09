@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Skills({ name, img_url, text, color }) {
+function SkillCard({ name, img_url, text, color, url }) {
 	return (
 		<div>
-			<div className="bg-white rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
+			<div className="bg-white hover:bg-slate-50 rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
 				<img
 					src={img_url}
 					className={`w-20 bg-${color}-100 rounded-xl p-3`}
@@ -17,8 +17,8 @@ export default function Skills({ name, img_url, text, color }) {
 
 					<div className="mt-3">
 						<a
-							href="#"
-							className={`block text-center bg-white hover:bg-${color}-500 border border-${color}-500 hover:border-whiti px-5 py-3 rounded text-${color}-500 hover:text-white w-full transition-all`}
+							href={url}
+							className={`block text-center bg-white hover:bg-${color}-500 border border-${color}-500 hover:border-white px-5 py-3 rounded text-${color}-500 hover:text-white w-full transition-all`}
 						>
 							Learn more.
 						</a>
@@ -28,3 +28,5 @@ export default function Skills({ name, img_url, text, color }) {
 		</div>
 	);
 }
+
+export default SkillCard;
