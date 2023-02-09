@@ -6,8 +6,8 @@ export default function EducationalSection() {
 	return (
 		<section className="container mx-auto py-20 sm:px-10 p-10">
 			<div className="flex justify-center">
-				<div className="w-6/12 text-center">
-					<h1 className="text-6xl">Educational</h1>
+				<div className="w-full md:w-6/12 text-center">
+					<h1 className="text-4xl">Educational</h1>
 					<hr className="border border-teal-500 my-5" />
 					<span className="text-slate-500">
 						{/* i studied in some of great school.  */}

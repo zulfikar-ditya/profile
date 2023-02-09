@@ -14,9 +14,10 @@ export default function SkillSections() {
 					</span>
 				</div>
 			</div>
-			<div className="grid md:grid-cols-2 lg:grid-cols-4 mt-20 gap-7">
+			<div className="grid md:grid-cols-2 lg:grid-cols-4 mt-20 gap-7 px-4 md:px-0 ">
 				{skills.map((skill, index) => {
 					let { name, img_url, text, color, url } = skill;
+					console.log(color);
 					return (
 						<SkillCard
 							name={name}
