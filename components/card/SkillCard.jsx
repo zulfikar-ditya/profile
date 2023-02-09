@@ -1,6 +1,6 @@
 import React from "react";
 
-function SkillCard({ name, img_url, text, color, url }) {
+export default function SkillCard({ name, img_url, text, color, url }) {
 	return (
 		<div>
 			<div className="bg-white hover:bg-slate-50 rounded-xl p-5 border border-gray-100 shadow-md hover:shadow-lg hover:-translate-y-5 transition-all">
@@ -28,5 +28,3 @@ function SkillCard({ name, img_url, text, color, url }) {
 		</div>
 	);
 }
-
-export default SkillCard;

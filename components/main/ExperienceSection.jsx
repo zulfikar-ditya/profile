@@ -1,5 +1,5 @@
 import React from "react";
-import { experiences } from "../../pages/json/Experience";
+import experiences from "../../pages/json/Experience.json";
 import ExperienceCard from "../card/ExperienceCard";
 
 export default function ExperienceSection() {
@@ -15,7 +15,7 @@ export default function ExperienceSection() {
 				</div>
 			</div>
 			<div className="w-full md:w-6/12 lg:w-4/12 mx-auto min-h-screen mt-20">
-				<ol class="relative border-l border-gray-700 dark:border-gray-400 ">
+				<ol className="relative border-l border-gray-700 dark:border-gray-400 ">
 					<div className="flex flex-col mt-20">
 						{experiences.map((experience, index) => {
 							let { title, description, start, end, company } = experience;

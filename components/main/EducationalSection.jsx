@@ -1,7 +1,6 @@
 import React from "react";
-import { schools } from "../../pages/json/Schools";
+import schools from "../../pages/json/Schools.json";
 import SchoolCard from "../card/SchoolCard";
-import SchoolCad from "../card/SchoolCard";
 
 export default function EducationalSection() {
 	return (
@@ -17,7 +16,7 @@ export default function EducationalSection() {
 			</div>
 
 			<div className="mt-20 w-full md:w-6/12 lg:w-4/12 mx-auto">
-				<ol class="relative border-l border-gray-200 dark:border-gray-700">
+				<ol className="relative border-l border-gray-200 dark:border-gray-700">
 					{schools.map((school, index) => {
 						let { name, from, to, major } = school;
 

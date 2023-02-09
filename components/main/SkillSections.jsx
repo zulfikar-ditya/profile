@@ -1,5 +1,5 @@
 import React from "react";
-import { skills } from "../../pages/json/Skills";
+import skills from "../../pages/json/Skills.json";
 import SkillCard from "../card/SkillCard";
 
 export default function SkillSections() {

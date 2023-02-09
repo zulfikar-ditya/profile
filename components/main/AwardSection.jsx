@@ -1,5 +1,5 @@
 import React from "react";
-import { Awards } from "../../pages/json/Award";
+import Awards from "../../pages/json/Award.json";
 import AwardCard from "../card/AwardCard";
 
 export default function AwardSection() {
@@ -17,7 +17,7 @@ export default function AwardSection() {
 				</div>
 
 				<div className="mt-20 w-full md:w-6/12 lg:w-4/12 mx-auto">
-					<ol class="relative border-l border-gray-200 dark:border-gray-700 ">
+					<ol className="relative border-l border-gray-200 dark:border-gray-700 ">
 						{Awards.map((award, index) => {
 							let { title, description, year } = award;
 
