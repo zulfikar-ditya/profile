@@ -6,7 +6,7 @@ export default function ExperienceSection() {
 	return (
 		<section className="container mx-auto py-20 sm:px-10 p-10">
 			<div className="flex justify-center">
-				<div className="w-6/12 text-center">
+				<div className="w-full md:w-6/12 text-center">
 					<h1 className="text-4xl">Experience.</h1>
 					<hr className="border border-teal-500 my-5" />
 					<span className="text-slate-500">
