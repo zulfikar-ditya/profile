@@ -27,6 +27,7 @@ export default function ExperienceSection() {
 									description={description}
 									start={start}
 									end={end}
+									key={index}
 								/>
 							);
 						})}

@@ -21,7 +21,15 @@ export default function EducationalSection() {
 					{schools.map((school, index) => {
 						let { name, from, to, major } = school;
 
-						return <SchoolCard name={name} from={from} to={to} major={major} />;
+						return (
+							<SchoolCard
+								name={name}
+								from={from}
+								to={to}
+								major={major}
+								key={index}
+							/>
+						);
 					})}
 				</ol>
 			</div>
