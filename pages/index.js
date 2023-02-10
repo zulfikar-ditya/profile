@@ -21,30 +21,26 @@ export default function Home() {
 				<meta name="theme-color" content="#14b8a6" />
 				<link rel="icon" href="/octocat-1662013943820.png" />
 			</Head>
-			<div className="snap-y snap-mandatory h-screen overflow-scroll overflow-x-hidden">
-				<div className="snap-center shrink-0">
+			<div className="">
+				<div className="">
 					<MainSection />
 				</div>
-				<div className="snap-start transition-all">
-					<div className="bg-slate-100">
-						<ExperienceSection />
-					</div>
+				<div className="">
+					<ExperienceSection />
 				</div>
-				<div className="snap-start transition-all">
+				<div className="">
 					<div className="min-h-screen">
 						<SkillSections />
 					</div>
 				</div>
 
-				<div className="snap-start transition-all">
-					<div className="bg-slate-100">
-						<AwardSection />
-					</div>
+				<div className="">
+					<AwardSection />
 				</div>
-				<div className="snap-start transition-all">
+				<div className="">
 					<EducationalSection />
 				</div>
-				<div className="snap-none" transition-all>
+				<div className="">
 					<Footer />
 				</div>
 			</div>

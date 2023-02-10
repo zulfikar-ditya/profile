@@ -1,7 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
-
-module.exports = nextConfig
+module.exports = {
+	experimental: {
+		turbo: {
+			resolveAlias: {
+				underscore: "lodash",
+				mocha: { browser: "mocha/browser-entry.js" },
+			},
+		},
+	},
+};
