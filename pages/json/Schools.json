@@ -1,5 +1,4 @@
 [
-	,
 	{
 		"name": "SMKN 1 Jenangan",
 		"major": "Software Engineering",
@@ -11,7 +10,7 @@
 		"major": "",
 		"from": "July 2016",
 		"to": "June 2019"
-	}
+	},
 	{
 		"name": "SDN 1 Nglayang",
 		"major": "",
