@@ -1,9 +1,33 @@
 [
 	{
+		"title": "Junior Programmer",
+		"company": "PT. Anomali Trans Teknologi",
+		"start": "June 2023",
+		"end": "Present",
+		"description": [
+			"-",
+		]
+	},
+	{
+		"title": "Freelance Developer",
+		"company": "Intive Studio",
+		"start": "June 2023",
+		"end": "Present",
+		"description": [
+			"work as Laravel Fullstack developer, work with teams as a core or support developer, developing web app like ERP system. handling some transaction algorithm with multi currency,",
+			"Work as Fullstack Laravel developer, work as teams, develop custom EPR web app from scratch ",
+			"Design database and make database for ERP app",
+			"Find, debug, analyze code. Make Some Feature or modules in ERP app",
+			"help other teams developer solve some complex algorithm in ERP app",
+			"Review, analyze, rewrite (fixing issue or bug¿ code from other developer for merging or combine code",
+			"Handle Purchase, Sales, Delivery, Invoice, Warehouse, and Master data in ERP app, and help some of features in finance modules, Human Resources modules."
+		]
+	},
+	{
 		"title": "Web Application Developer",
 		"company": "Intive Studio",
 		"start": "July 2022",
-		"end": "Present",
+		"end": "June 2023",
 		"description": [
 			"work as Laravel Fullstack developer, work with teams as a core or support developer, developing web app like ERP system. handling some transaction algorithm with multi currency,",
 			"Work as Fullstack Laravel developer, work as teams, develop custom EPR web app from scratch ",
@@ -18,7 +42,7 @@
 		"title": "Back End Developer",
 		"company": "Seje Digital",
 		"start": "March 2022",
-		"end": "Present as partime",
+		"end": "August 2022",
 		"description": [
 			"Correct errors by making appropriate changes and rechecking the program to ensure that the desired results are produced.",
 			"Conduct trial runs of programs and software applications to be sure they will produce the desired information and that the instructions are correct.",
