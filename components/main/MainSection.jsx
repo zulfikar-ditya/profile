@@ -30,11 +30,7 @@ export default function MainSection() {
 								Web development enthusiast.
 							</h5>
 							<p className="mt-2 text-gray-500 dark:text-slate-100">
-								Motivated in application development especially in backend
-								development. graduated as the best graduate in major software
-								engineering at Smkn 1 Jenangan in 2022. I was won several
-								competitions in the field of web development. very enthusiastic
-								in the field of web development and still want to keep learning.
+								Highly skilled Laravel Developer with a strong background in web application development and a passion for creating efficient and innovative solutions. Experienced in handling complex transaction algorithms and designing robust databases. Proven ability to work collaboratively in teams and deliver high-quality code. Committed to continuous learning and staying up-to-date with the latest technologies.
 							</p>
 						</div>
 					</div>
