@@ -4,7 +4,16 @@
 		"company": "PT. Anomali Trans Teknologi",
 		"start": "June 2023",
 		"end": "Present",
-		"description": ["-", "-", "-", "-", "-", "-", "-"]
+		"description": [
+			"Developed and optimized sales algorithms to enhance decision-making and improve sales performance.",
+			"Designed and implemented efficient and scalable database schemas to support the web application's data requirements.",
+			"Wrote complex SQL queries to filter, retrieve, create, and update data in PostgreSQL databases.",
+			"Built responsive and user-friendly web applications using Laravel, Bootstrap, jQuery, and other front-end technologies.",
+			"Implemented CRUD operations and backend logic for data manipulation, ensuring data integrity and security.",
+			"Conducted thorough testing and debugging to ensure the web application's functionality was error-free.",
+			"Collaborated with cross-functional teams, including designers and product managers, to understand requirements and deliver effective solutions.",
+			"Actively explored and learned about the Mendix low-code platform to broaden technical expertise."
+		]
 	},
 	{
 		"title": "Freelance Laravel Developer",
