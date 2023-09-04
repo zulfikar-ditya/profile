@@ -13,10 +13,10 @@ export default function Home() {
 				<title>Zulfikar Ditya - Web Development Enthusiast</title>
 				<meta
 					name="description"
-					content="Zulfikar Ditya - Motivated in application development especially in backend development. graduated as the best graduate in major software engineering at Smkn 1 Jenangan in 2022. I was won several competitions in the field of web development. very enthusiastic in the field of web development and still want to keep learning."
+					content="Web Development Enthusiast"
 				/>
 				<meta name="title" content="Zulfikar Ditya" />
-				<meta name="keywords" content="Zulfikar Ditya" />
+				<meta name="keywords" content="Zulfikar Ditya, Web Development, Web developer, Backend Developer, Laravel Developer, Web App Developer." />
 				<meta name="author" content="Zulfikar Ditya" />
 				<meta name="theme-color" content="#14b8a6" />
 				<link rel="icon" href="/octocat-1662013943820.png" />
