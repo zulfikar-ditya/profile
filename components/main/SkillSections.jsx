@@ -13,8 +13,8 @@ export default function SkillSections() {
 						</h1>
 						<hr className="border border-teal-500 my-5" />
 						<span className="text-slate-500 dark:text-slate-400">
-							I possess skills I'm proud of, and my commitment to continuous
-							learning drives me to enhance them further
+							I possess skills I&lsquo;m proud of, and my commitment to
+							continuous learning drives me to enhance them further
 						</span>
 					</div>
 				</div>
