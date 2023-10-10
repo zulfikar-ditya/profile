@@ -11,7 +11,7 @@ export default function ExperienceSection() {
 						<h1 className="text-4xl dark:text-slate-200">Experience.</h1>
 						<hr className="border border-teal-500 my-5" />
 						<span className="text-slate-500 dark:text-slate-400">
-							I have worked in several companies. I am very proud of them.
+							I've proudly contributed to several esteemed companies.
 						</span>
 					</div>
 				</div>

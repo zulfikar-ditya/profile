@@ -30,7 +30,13 @@ export default function MainSection() {
 								Web development enthusiast.
 							</h5>
 							<p className="mt-2 text-gray-500 dark:text-slate-100">
-								Highly skilled Laravel Developer with a strong background in web application development and a passion for creating efficient and innovative solutions. Experienced in handling complex transaction algorithms and designing robust databases. Proven ability to work collaboratively in teams and deliver high-quality code. Committed to continuous learning and staying up-to-date with the latest technologies.
+								Highly skilled Laravel Developer with a strong background in web
+								application development and a passion for creating efficient and
+								innovative solutions. Experienced in handling complex
+								transaction algorithms and designing robust databases. Proven
+								ability to work collaboratively in teams and deliver
+								high-quality code. Committed to continuous learning and staying
+								up-to-date with the latest technologies.
 							</p>
 						</div>
 					</div>
@@ -70,7 +76,7 @@ export default function MainSection() {
 						</div>
 						<div className="">
 							<a
-								href="https://drive.google.com/file/d/1iI_PAU-7tGUwVZ3ViXyWGeMpONHWc2Hv/view?usp=sharing"
+								href="https://drive.google.com/file/d/1r9Wke22uRVXR_FMyLlmGrcDZNeNKfZMG/view?usp=drive_link"
 								target="_blank"
 								rel="noopener noreferrer"
 								title="Resume"

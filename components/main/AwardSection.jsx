@@ -12,7 +12,8 @@ export default function AwardSection() {
 							<h1 className="text-4xl dark:text-slate-200">Award</h1>
 							<hr className="border border-teal-500 my-5 dark:text-slate-400" />
 							<span className="text-slate-500">
-								I won several awards in my life. I am very proud of them.
+								Proud recipient of multiple awards, each a testament to my
+								dedication and commitment to excellence
 							</span>
 						</div>
 					</div>
