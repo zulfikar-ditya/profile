@@ -76,7 +76,7 @@ export default function MainSection() {
 						</div>
 						<div className="">
 							<a
-								href="https://drive.google.com/file/d/1r9Wke22uRVXR_FMyLlmGrcDZNeNKfZMG/view?usp=drive_link"
+								href="https://www.figma.com/file/RBauCT8RJqwwsziRpzruD9/Resume?type=design&node-id=0%3A1&mode=design&t=ZnmNRKePXPde3dfp-1"
 								target="_blank"
 								rel="noopener noreferrer"
 								title="Resume"
