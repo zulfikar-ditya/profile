@@ -26,10 +26,10 @@ export default function MainSection() {
 								</h1>
 							</div>
 							<hr className="border border-teal-500 dark:border-teal-400 w-[50%] mx-auto my-5 " />
-							<h5 className="text-2xl tracking-widest text-slate-700 dark:text-slate-200">
+							<h2 className="text-2xl tracking-widest text-slate-700 dark:text-slate-200">
 								Web development enthusiast.
-							</h5>
-							<p className="mt-2 text-gray-500 dark:text-slate-100">
+							</h2>
+							<h3 className="mt-2 text-md text-gray-500 dark:text-slate-100">
 								Highly skilled Laravel Developer with a strong background in web
 								application development and a passion for creating efficient and
 								innovative solutions. Experienced in handling complex
@@ -37,7 +37,7 @@ export default function MainSection() {
 								ability to work collaboratively in teams and deliver
 								high-quality code. Committed to continuous learning and staying
 								up-to-date with the latest technologies.
-							</p>
+							</h3>
 						</div>
 					</div>
 					<div className="flex flex-row gap-4 mt-10">

@@ -9,7 +9,7 @@ export default function AwardSection() {
 				<div className="flex flex-col justify-between">
 					<div className="flex justify-center">
 						<div className="w-6/12 text-center">
-							<h1 className="text-4xl dark:text-slate-200">Award</h1>
+							<h3 className="text-4xl dark:text-slate-200">Award</h3>
 							<hr className="border border-teal-500 my-5 dark:text-slate-400" />
 							<span className="text-slate-500">
 								Proud recipient of multiple awards, each a testament to my
